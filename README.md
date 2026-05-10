@@ -82,7 +82,7 @@ rl-explorations/
 
 ```bash
 # Clone the repo
-git clone https://github.com/<your-username>/rl-explorations.git
+git clone https://github.com/<SupratikB23>/rl-explorations.git
 cd rl-explorations
 
 # Create a virtual environment
@@ -123,20 +123,6 @@ Then open [http://localhost:6006](http://localhost:6006) in your browser.
 - [x] 03b — REINFORCE with Baseline
 - [ ] Actor-Critic (A2C) *(coming soon)*
 - [ ] Proximal Policy Optimization (PPO) *(coming soon)*
-
----
-
-## Results Summary
-
-| Algorithm | Environment | Episodes | Avg Test Reward | Success Rate |
-|-----------|-------------|----------|-----------------|--------------|
-| Monte Carlo | LunarLander-v3 | 30,000 | — | — |
-| TD Q-Learning | LunarLander-v3 | 50,000 | — | — |
-| DQN | Atari Pong | ~1M frames | — | — |
-| REINFORCE | CartPole-v1 | — | — | — |
-| REINFORCE + Baseline | CartPole-v1 | — | — | — |
-
-> Fill in your results after training!
 
 ---
 
